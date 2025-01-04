@@ -196,9 +196,9 @@ def ask_ai(profile, question):
     """
     rag_response = agent.query(prompt)
 
-    # # Step 2: Add a motivational quote
-    # prompt2 = "Generate an inspiring fitness-related motivational quote."
-    # motivational_quote = agent.query(prompt2)
+    # Step 2: Add a motivational quote
+    prompt2 = "Generate an inspiring fitness-related motivational quote."
+    motivational_quote = agent.query(prompt2)
     
     # Combine responses
     final_response = {
